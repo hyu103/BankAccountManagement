@@ -10,7 +10,7 @@ namespace BankAccountManagement
 {
     public class CustomerAccountManagerDAO
     {
-        private SqlConnection m_conn = new SqlConnection("Data Source=.\\SQLEXPRESS;Database=Account;User=sa;Password=access;");
+        private SqlConnection m_conn = new SqlConnection("Data Source=.\\SQLEXPRESS;Database=Account;User=;Password=;");
         private SqlConnection Connection { get { return m_conn; } }
 
         internal CustomerAccountManager CreateCustomer(string FirstName, string LastName)
